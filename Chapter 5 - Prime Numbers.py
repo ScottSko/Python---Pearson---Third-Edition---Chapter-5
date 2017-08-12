@@ -6,12 +6,6 @@ def main():
     else:
             print("The number is not prime.")
 
-#def is_prime(possible_prime):
-#    for i in range(3, possible_prime):
-#        if possible_prime % i == 0 or possible_prime == 4:
-#            return False
-#    return True
-
 def is_prime(possible_prime):
     if possible_prime == 2 or possible_prime == 3 or possible_prime == 5 or possible_prime == 7:
         return True
