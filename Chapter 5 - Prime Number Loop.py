@@ -1,6 +1,5 @@
 num = int(input("Please enter a number: "))
 
-
 if num > 1:
     
     for i in range(2, num):
